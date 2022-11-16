@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "a62e4359-3d7e-443e-986c-2f69ac9c2657",
+		"name": "Spring_Cloud_Config_Client",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8081/actuator/refresh",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/actuator/refresh",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"actuator",
+						"refresh"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/greeting",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/greeting",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"greeting"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
